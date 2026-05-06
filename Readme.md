@@ -4,13 +4,13 @@
 
 1) Clone repo
 
-`git clone https://github.com/vtoroychadaev/scapegoat-tree.git`
+`git clone https://github.com/VtoroyChadaev/scapegoat-tree.git`
 
 2) Go to root directory
 
 `cd your/abs/path/scapegoat-tree`
 
-3) Create build directory
+3) Create `build` directory
 
 `mkdir ./build`
 
@@ -22,7 +22,7 @@
 
 (a) `make lib=static`
 
-or (to user linked library)
+or (to use linked library)
 
 (b) `make lib=dynamic`
 
@@ -44,14 +44,13 @@ You don't have to insert values manually
 
 Instead, you can add values using files with data
 
-One can find examples in ./project/examples dir
+One can find examples in `./project/examples` directory
 
 **IMPORTANT**
 
-Files **must end** with ASCII DLE (data link escape, dec 16) symbol
+Files **must end** with ASCII DLE (data link escape, 16th in ASCII Table) symbol
 
 One can insert it using <C-p> (ctrl+p) combination
-
 
 ## How to test DS for time-complexity
 
@@ -59,7 +58,7 @@ One can insert it using <C-p> (ctrl+p) combination
 
 `cd ./tests`
 
-2) Create build directory
+2) Create `build` directory
 
 `mkdir ./build`
 
@@ -71,7 +70,7 @@ Some shell scripts are presented to time-test Data Structure
 
 Results also available in txt files
 
-**Tip**
+**TIP**
 
 you can examine all available options by running
 
