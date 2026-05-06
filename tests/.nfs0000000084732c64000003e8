@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+for size in {10000000..20000000..10000}
+do
+./program -S -s $size -n 1 -k 1000 -v 94 >> spec_find_time.txt
+done
+echo All done
+
