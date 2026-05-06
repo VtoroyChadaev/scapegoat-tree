@@ -48,7 +48,7 @@ One can find examples in `./project/examples` directory
 
 **IMPORTANT**
 
-Files **must end** with ASCII DLE (data link escape, 16th in ASCII Table) symbol
+When inserting values manually, to **end input** you should type ASCII DLE symbol (data link escape, 16th in ASCII Table)
 
 One can insert it using <C-p> (ctrl+p) combination
 
