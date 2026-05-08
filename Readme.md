@@ -1,5 +1,21 @@
 # Scapegoat tree
 
+## Description
+
+This project implements a Scapegoat Tree for storing key-value pairs. Both keys and values are unsigned integers. Duplicate keys are supported, and each node stores links to its children, its parent, and the associated value.
+
+## What it supports
+- insert new elements while preserving tree order;
+- remove elements by key;
+- print the tree in sorted order, with an optional lower key bound;
+- search for all elements with the same key;
+- find the closest key that is not equal to the requested one.
+
+### Notes
+- if multiple elements share the same key, search returns all of them;
+- search results are returned as pointers, not copies;
+- when deleting a duplicate key, the element index must be specified.
+
 ## How to compile project
 
 1) Clone repo
